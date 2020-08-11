@@ -1,4 +1,4 @@
 .DS_Store
-./design
-./images
-style-guide.txt
+design/
+images/
+style-guide.md
