@@ -1,5 +1,5 @@
 module.exports = {
-  purge: [],
+  purge: ["./build/index.html"],
   theme: {
     extend: {
       height: {
