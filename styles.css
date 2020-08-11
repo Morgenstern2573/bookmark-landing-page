@@ -1,0 +1,33 @@
+@tailwind base;
+
+@tailwind components;
+
+.btn {
+  @apply py-1 px-4 rounded shadow-md;
+}
+
+.btn-red {
+  @apply bg-red-600 text-white  border border-red-600;
+}
+
+.btn-red:hover {
+  @apply bg-white text-red-600;
+}
+
+.btn-blue {
+  @apply bg-blue-700 text-white  border border-blue-700;
+}
+
+.btn-blue:hover {
+  @apply bg-white text-blue-700;
+}
+
+.btn-gray {
+  @apply bg-gray-100 border border-gray-100 text-gray-600;
+}
+
+.btn-gray:hover {
+  @apply bg-white;
+}
+
+@tailwind utilities;
